@@ -36,8 +36,8 @@
   /* ── HERO ── */
   .hero {
     position: relative;
-    height: 110svh;
-    min-height: 700px;
+    height: 100svh;
+    min-height: 640px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@
     position: absolute;
     inset: 0;
     background: url('https://media.amanar-entertainment.org/yusuf-jr/portrait.jpg')
-                center 55% / cover no-repeat;
+                center 42% / cover no-repeat;
   }
 
   .hero-grad {
@@ -57,17 +57,17 @@
     background: linear-gradient(
       to bottom,
       rgba(244,239,228,0.0)  0%,
-      rgba(244,239,228,0.0) 35%,
-      rgba(244,239,228,0.55) 55%,
-      rgba(244,239,228,0.92) 72%,
-      rgba(244,239,228,1.00) 100%
+      rgba(244,239,228,0.0) 30%,
+      rgba(244,239,228,0.4) 50%,
+      rgba(244,239,228,0.85) 65%,
+      rgba(244,239,228,1.00) 78%
     );
   }
 
   .hero-content {
     position: relative;
     z-index: 2;
-    padding: 0 7vw 18vh;
+    padding: 0 7vw 8vh;
   }
 
   .hero-eyebrow {
@@ -87,8 +87,9 @@
     font-size: 0.65rem;
     letter-spacing: 0.28em;
     text-transform: uppercase;
-    color: var(--terra);
+    color: var(--sand);
     font-weight: 400;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.4);
   }
 
   .hero-name {
@@ -98,6 +99,7 @@
     color: var(--brown);
     letter-spacing: -0.02em;
     margin-bottom: 0.5rem;
+    text-shadow: 0 2px 8px rgba(244,239,228,0.6);
   }
 
   .hero-tifinagh {
@@ -105,7 +107,7 @@
     color: var(--terra);
     letter-spacing: 0.18em;
     margin-bottom: 0.9rem;
-    opacity: 0.85;
+    opacity: 0.95;
   }
 
   .hero-tags {
